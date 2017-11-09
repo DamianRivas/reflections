@@ -17,3 +17,10 @@ per logical change. First I only add the specific files I want to the staging ar
 check the differences between the working directory and the staging area, and the staging area
 and the master head to ensure that I am only making the changes appropriate to the logical
 change. Then I commit the changes from the staging area to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Branches are helpful when we want to experiment with the program without affecting the master
+branch. It's helpful when trying out new ideas or working on multiple new features at the same
+time.
