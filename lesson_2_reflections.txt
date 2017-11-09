@@ -9,3 +9,11 @@ you think it offers?
 The staging area is a sort of temporary location where files from the working directory that
 are to be committed are added to in preparation to a commit on the repository. It's valuable
 because it gives us the ability to specifically choose which files we want to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the staging area to make sure I am only committing the files that I want to commit
+per logical change. First I only add the specific files I want to the staging area, then I
+check the differences between the working directory and the staging area, and the staging area
+and the master head to ensure that I am only making the changes appropriate to the logical
+change. Then I commit the changes from the staging area to the repository.
