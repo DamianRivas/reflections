@@ -32,3 +32,11 @@ works. The arrows help me see that each commit points back to the previous commi
 is a parent of the commit directly in front of it. It also helped explain the meaning of being in
 a detached head state. Drawing it out showed me that repositories are sort of like linked-lists or
 branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way
+we do?
+
+Merging two branches combines the two branches together essentially making them into a single branch
+starting at a new commit. The new commit points back to all of the commits in both of the previous
+branches and that is why we represented the process in the diagram as a new commit with arrows
+pointing back to the previous branches.
