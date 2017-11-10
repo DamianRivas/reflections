@@ -24,3 +24,11 @@ How would branches help?
 Branches are helpful when we want to experiment with the program without affecting the master
 branch. It's helpful when trying out new ideas or working on multiple new features at the same
 time.
+
+How do the diagrams help you visualize the branch structure?
+
+Drawing out the branch structure into a diagram helps me immediately see how the branch structure
+works. The arrows help me see that each commit points back to the previous commit, so each commit
+is a parent of the commit directly in front of it. It also helped explain the meaning of being in
+a detached head state. Drawing it out showed me that repositories are sort of like linked-lists or
+branches.
