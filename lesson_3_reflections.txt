@@ -10,3 +10,10 @@ stay up-to-date with your remote repository?
 I wouldn't want Git to override changes that I've made locally that haven't been pushed
 to the remote repository and this is also an aspect that I want to have complete control
 of because Git isn't intelligent enough to handle all possible conflicts that may arise.
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+A fork is a copy of someone else's repository on Github that you clone under your profile.
+A branch is a sort of linked-list of versions of the same system. You can have you system
+version branch multiple times on any commit. A clone is a copy of a repository.
