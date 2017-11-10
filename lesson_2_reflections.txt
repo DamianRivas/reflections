@@ -40,3 +40,10 @@ Merging two branches combines the two branches together essentially making them 
 starting at a new commit. The new commit points back to all of the commits in both of the previous
 branches and that is why we represented the process in the diagram as a new commit with arrows
 pointing back to the previous branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The biggest pro of automatic merges is that it saves me a lot of time and effort that can go into
+other things. The big con is that Git can't think on its own so sometimes when there are conflicts
+automatic merging won't work, but Git allows us to manually look into the changes and fix any
+conflicts when this happens so there isn't any good reason to always merge manually on my own.
