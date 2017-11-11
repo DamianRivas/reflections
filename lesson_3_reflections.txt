@@ -17,3 +17,9 @@ instead of another?
 A fork is a copy of someone else's repository on Github that you clone under your profile.
 A branch is a sort of linked-list of versions of the same system. You can have you system
 version branch multiple times on any commit. A clone is a copy of a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you haven't pushed to or pulled from the remote in a while, it's nice to be able to fetch
+the latest state of the remote just to be aware of changes since you last interacted with
+it.
