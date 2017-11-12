@@ -23,3 +23,12 @@ What is the benefit of having a copy of the last known state of the remote store
 If you haven't pushed to or pulled from the remote in a while, it's nice to be able to fetch
 the latest state of the remote just to be aware of changes since you last interacted with
 it.
+
+ How would you collaborate without using Git or Github? What would be easier, and what would
+ be harder?
+
+Without Git, I would probably use Microsoft's Onedrive to store the files for projects. the
+automatic sync to all of my computers would be useful since I run Windows on all of my machines,
+but then it wouldn't be as useful to team members with other OS's. Also, I wouldn't be able to
+take advantage of Git's powerful version control system and reverting significant changes
+would be a painful process.
