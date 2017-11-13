@@ -32,3 +32,12 @@ automatic sync to all of my computers would be useful since I run Windows on all
 but then it wouldn't be as useful to team members with other OS's. Also, I wouldn't be able to
 take advantage of Git's powerful version control system and reverting significant changes
 would be a painful process.
+
+When would you want to make changes in a seperate branch rather than directly in master? What
+benefits does each approach have?
+
+Personally, I would make changes in a separate branch when I am wanting to test out new things
+that I am unsure of or when I am working on a large new feature to my program. That way the
+changes I make will not break the main branch which will ensure the program is always in a stable
+state. I belive the increased complexity is a worth the reduced risk. Also, the changes made in
+the separate branch won't get lost in the master log.
